@@ -1,0 +1,146 @@
+body{
+	display:flex; flex-direction:column; justify-content:center;
+  min-height:100vh;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.card{
+	height: 60vh;
+	background: hsl(31, 77%, 52%);
+	padding: 4px;
+	min-width: 200px;
+	max-width: 270px;
+	flex: 30%;
+	border-radius: 8px 0px 0px 8px;
+
+}
+.card2{
+	height: 60vh;
+	background:  hsl(184, 100%, 22%);
+	padding: 4px;
+	min-width: 200px;
+	max-width: 270px;
+	flex: 30%;
+
+}
+.card3{
+	height: 60vh;
+	background: hsl(179, 100%, 13%);;
+	padding: 4px;
+	min-width: 200px;
+	max-width: 270px;
+	border-radius: 0px 8px 8px 0px;
+	flex: 30%;
+}
+
+@media (max-width: 375px) {
+	.card{
+		height: 60vh;
+		background: hsl(31, 77%, 52%);
+		padding: 4px;
+		min-width: 200px;
+		max-width: 270px;
+		flex: 30%;
+		border-radius: 8px 8px 0px 0px;
+
+	}
+	.card3{
+		height: 60vh;
+		background: hsl(179, 100%, 13%);;
+		padding: 4px;
+		min-width: 200px;
+		max-width: 270px;
+		border-radius: 0px 0px 8px 8px;
+		flex: 30%;
+	}
+}
+
+.card-content{
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/BigShouldersDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: mySecFont;
+  src: url(fonts/LexendDeca-Regular.ttf);
+}
+.card-title{
+	color: hsl(0, 0%, 95%);
+	font-size: 5vh;
+	font-family: myFirstFont;
+	font-weight: 700;
+}
+
+
+.card-body{
+	color:hsla(0, 0%, 100%, 0.75) ;
+	font-family: mySecFont;
+	font-size: 14px;
+}
+.card-footer{
+	padding-top: 30px;
+}
+
+.card-btn1{
+	font-family: mySecFont;
+	color: hsl(0, 0%, 95%);
+	background-color: Transparent;
+	text-align: center;
+	height: 33px;
+	width: 150px;
+	border-radius: 15px;
+	border: hsl(0, 0%, 95%) 2px solid ;
+
+}
+.card-btn2{
+	font-family: mySecFont;
+	color: hsl(0, 0%, 95%);
+	background-color: Transparent;
+	text-align: center;
+	height: 33px;
+	width: 150px;
+	border-radius: 15px;
+	border: hsl(0, 0%, 95%) 2px solid ;
+
+}
+.card-btn3{
+	font-family: mySecFont;
+	color: hsl(0, 0%, 95%);
+	background-color: Transparent;
+	text-align: center;
+	height: 33px;
+	width: 150px;
+	border-radius: 15px;
+	border: hsl(0, 0%, 95%) 2px solid ;
+
+}
+.card-btn1:hover{
+	cursor: pointer;
+	background: hsl(0, 0%, 95%);
+	color: hsl(31, 77%, 52%);
+}
+.card-btn2:hover{
+	cursor: pointer;
+	background: hsl(0, 0%, 95%);
+	color: hsl(184, 100%, 22%);
+}
+.card-btn3:hover{
+	cursor: pointer;
+	background: hsl(0, 0%, 95%);
+	color: hsl(179, 100%, 13%);;
+}
+
+
+
+
+
